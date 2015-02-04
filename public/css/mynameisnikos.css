@@ -611,7 +611,6 @@ body {
     display: block
 }
 
-
 .social-links .facebook {
     height: 32px;
     width: 32px;
@@ -630,7 +629,6 @@ body {
         background-size: 246px auto
     }
 }
-
 
 .social-links .linkedin {
     height: 32px;
@@ -670,7 +668,6 @@ body {
     }
 }
 
-
 .social-links .github {
     height: 32px;
     width: 32px;
@@ -689,7 +686,6 @@ body {
         background-size: 246px auto
     }
 }
-
 
 .shownav {
     display: none
@@ -1203,37 +1199,38 @@ body {
     height: 220px;
 }
 
+
 /*.description p:before {*/
-    /*content: "";*/
-    /*display: inline-block;*/
-    /*height: 30px;*/
-    /*width: 30px;*/
-    /*background-image: url("/img/paper.png");*/
-    /*background-size: contain;*/
-    /*background-position: 0 0px;*/
-    /*background-repeat: no-repeat;*/
+/*content: "";*/
+/*display: inline-block;*/
+/*height: 30px;*/
+/*width: 30px;*/
+/*background-image: url("/img/paper.png");*/
+/*background-size: contain;*/
+/*background-position: 0 0px;*/
+/*background-repeat: no-repeat;*/
 /*}*/
 
 /*.nerdy-info p:before {*/
-    /*content: "";*/
-    /*display: inline-block;*/
-    /*height: 30px;*/
-    /*width: 30px;*/
-    /*background-image: url("/img/nerd.png");*/
-    /*background-size: contain;*/
-    /*background-position: 0 0px;*/
-    /*background-repeat: no-repeat;*/
+/*content: "";*/
+/*display: inline-block;*/
+/*height: 30px;*/
+/*width: 30px;*/
+/*background-image: url("/img/nerd.png");*/
+/*background-size: contain;*/
+/*background-position: 0 0px;*/
+/*background-repeat: no-repeat;*/
 /*}*/
 
 /*.tecks p:before {*/
-    /*content: "";*/
-    /*display: inline-block;*/
-    /*height: 30px;*/
-    /*width: 30px;*/
-    /*background-image: url("/img/gears.png");*/
-    /*background-size: contain;*/
-    /*background-position: 0 0px;*/
-    /*background-repeat: no-repeat;*/
+/*content: "";*/
+/*display: inline-block;*/
+/*height: 30px;*/
+/*width: 30px;*/
+/*background-image: url("/img/gears.png");*/
+/*background-size: contain;*/
+/*background-position: 0 0px;*/
+/*background-repeat: no-repeat;*/
 /*}*/
 
 /*END projects list css*/
