@@ -3,9 +3,8 @@
   "description": "my CV site",
   "version": "0.0.0",
   "homepage": "https://github.com/npgeorgiou/MyNameIsNikos",
-  "license": "MINE :P",
+  "license": "None, feel free to use any part of it",
   "private": true,
   "dependencies": {
-
   }
 }
