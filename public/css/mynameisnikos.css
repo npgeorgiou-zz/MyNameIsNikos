@@ -1199,6 +1199,12 @@ body {
     height: 220px;
 }
 
+.budget-image-container {
+    background-image: url("/img/budget.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
 
 /*.description p:before {*/
 /*content: "";*/
