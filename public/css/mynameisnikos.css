@@ -21,7 +21,8 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block
+    display: block;
+    margin-bottom: 5em
 }
 
 audio, canvas, video {
@@ -1246,9 +1247,9 @@ body {
     margin-bottom: 1.5em
 }
 
-.education-modules li:last-child {
-    margin-bottom: 5em
-}
+/*.education-modules li:last-child {*/
+    /*margin-bottom: 5em*/
+/*}*/
 
 .education-modules strong {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
