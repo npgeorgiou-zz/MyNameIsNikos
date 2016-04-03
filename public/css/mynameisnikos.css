@@ -1207,6 +1207,13 @@ body {
     height: 220px;
 }
 
+.fastrent-image-container {
+    background-image: url("/img/fastrent.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
 /*.description p:before {*/
 /*content: "";*/
 /*display: inline-block;*/
