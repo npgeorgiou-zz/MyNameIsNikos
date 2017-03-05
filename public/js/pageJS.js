@@ -147,9 +147,6 @@
     function n(t) {
         this.el = t, this.path = new e(this.el.getAttribute("src"), this.el.getAttribute("data-at2x"));
         var n = this;
-        this.path.check_2x_variant(function (t) {
-            t && n.swap()
-        })
     }
 
     var i = "undefined" == typeof exports ? window : exports, o = {check_mime_type: !0};
@@ -169,19 +166,6 @@
         return i.devicePixelRatio > 1 ? !0 : i.matchMedia && i.matchMedia(t).matches ? !0 : !1
     }, i.RetinaImagePath = e, e.confirmed_paths = [], e.prototype.is_external = function () {
         return!(!this.path.match(/^https?\:/i) || this.path.match("//" + document.domain))
-    }, e.prototype.check_2x_variant = function (t) {
-        var n, i = this;
-        return this.is_external() ? t(!1) : this.perform_check || "undefined" == typeof this.at_2x_path || null === this.at_2x_path ? this.at_2x_path in e.confirmed_paths ? t(!0) : (n = new XMLHttpRequest, n.open("HEAD", this.at_2x_path), n.onreadystatechange = function () {
-            if (4 != n.readyState)return t(!1);
-            if (n.status >= 200 && n.status <= 399) {
-                if (o.check_mime_type) {
-                    var a = n.getResponseHeader("Content-Type");
-                    if (null == a || !a.match(/^image/i))return t(!1)
-                }
-                return e.confirmed_paths.push(i.at_2x_path), t(!0)
-            }
-            return t(!1)
-        }, n.send(), void 0) : t(!0)
     }, i.RetinaImage = n, n.prototype.swap = function (t) {
         function e() {
             n.el.complete ? (n.el.setAttribute("width", n.el.offsetWidth), n.el.setAttribute("height", n.el.offsetHeight), n.el.setAttribute("src", t)) : setTimeout(e, 5)

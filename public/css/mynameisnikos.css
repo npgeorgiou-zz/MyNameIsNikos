@@ -20,7 +20,7 @@
     line-height: 0.9
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+ aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
     margin-bottom: 5em
 }
@@ -410,25 +410,6 @@ body {
     max-width: 1000px
 }
 
-@media (min-width: 40em) {
-    .wrap, .chromeframe {
-        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIyMy4yJSIgc3RvcC1jb2xvcj0iIzJjMmMyYyIvPjxzdG9wIG9mZnNldD0iMjMuMiUiIHN0b3AtY29sb3I9IiM2MTllYzIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-        background-size: 100%;
-        background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(23.2%, #2c2c2c), color-stop(23.2%, #028B54));
-        background-image: -webkit-linear-gradient(left center, #2c2c2c 23.2%, #028B54 23.2%);
-        background-image: -moz-linear-gradient(left center, #2c2c2c 23.2%, #028B54 23.2%);
-        background-image: -o-linear-gradient(left center, #2c2c2c 23.2%, #028B54 23.2%);
-        background-image: linear-gradient(left center, #2c2c2c 23.2%, #028B54 23.2%)
-    }
-}
-
-.lt-ie9 .wrap, .lt-ie9 .chromeframe {
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIyMy4yJSIgc3RvcC1jb2xvcj0iIzJjMmMyYyIvPjxzdG9wIG9mZnNldD0iMjMuMiUiIHN0b3AtY29sb3I9IiM2MTllYzIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(23.2%, #2c2c2c), color-stop(23.2%, #028B54));
-    background-image: linear-gradient(left center, #2c2c2c 23.2%, #028B54 23.2%)
-}
-
 .chromeframe {
     clear: both;
     margin: 0.2em 0;
@@ -467,6 +448,7 @@ body {
 @media (min-width: 40em) {
     .menu {
         max-width: 1000px;
+        height: 100%;
         padding-left: 0;
         padding-right: 0;
         margin-left: auto;
@@ -497,8 +479,8 @@ body {
 .menu .fixed {
     position: absolute;
     width: 100%;
+    height: 100%;
     float: left;
-    margin-right: 4.9180328%;
     background: #2c2c2c;
     z-index: 100;
 }
@@ -507,8 +489,6 @@ body {
     .menu .fixed {
         width: 23.2%;
         float: left;
-        margin-right: 2.4%;
-        background: none
     }
 }
 
@@ -564,17 +544,6 @@ body {
     background-repeat: no-repeat
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .navigation .pdf a:after {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -864px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .social-links ul {
     list-style: none;
     margin: 0;
@@ -620,34 +589,12 @@ body {
     background-repeat: no-repeat
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .social-links .facebook {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -576px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .social-links .linkedin {
     height: 32px;
     width: 32px;
     background-image: url("/img/sprites-sfceea3f451-7f705467.png");
     background-position: 0 -450px;
     background-repeat: no-repeat
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .social-links .linkedin {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -401px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
 }
 
 .social-links .stack-overflow {
@@ -658,17 +605,6 @@ body {
     background-repeat: no-repeat
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .social-links .stack-overflow {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -337px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .social-links .github {
     height: 32px;
     width: 32px;
@@ -677,23 +613,13 @@ body {
     background-repeat: no-repeat
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .social-links .github {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -433px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .shownav {
     display: none
 }
 
 @media (min-width: 40em) {
     .shownav {
+        background-color: #2c2c2c;
         display: block
     }
 }
@@ -738,17 +664,6 @@ body {
     margin-top: -3px
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .shownavbutton:after {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -749px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 @media (min-width: 40em) {
     .shownavbutton {
         display: none
@@ -767,7 +682,6 @@ body {
 @media (min-width: 40em) {
     .main {
         margin-left: 25.6%;
-        padding-left: 0%;
         padding-right: 2.4%;
         width: 72%;
         float: right;
@@ -1161,17 +1075,6 @@ body {
     position: relative;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .projects-list .coding p:before {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -211px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .chat-image-container {
     background-image: url("/img/chat.png");
     background-size: cover;
@@ -1255,7 +1158,7 @@ body {
 }
 
 /*.education-modules li:last-child {*/
-    /*margin-bottom: 5em*/
+/*margin-bottom: 5em*/
 /*}*/
 
 .education-modules strong {
@@ -1269,17 +1172,6 @@ body {
     background-position: 0 0;
     background-repeat: no-repeat;
     margin: 0 auto 1.5em auto
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .education-win {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 0;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
 }
 
 @media (min-width: 40em) {
@@ -1336,34 +1228,12 @@ body {
     background-repeat: no-repeat
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .employment-location:before {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -684px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
-}
-
 .employment-dates:before {
     height: 18px;
     width: 17px;
     background-image: url("/img/sprites-sfceea3f451-7f705467.png");
     background-position: 0 -860px;
     background-repeat: no-repeat
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .employment-dates:before {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -846px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
 }
 
 .employment-tags {
@@ -1399,17 +1269,6 @@ body {
     background-position: 0 -842px;
     background-repeat: no-repeat;
     margin-right: 0.375em
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .employment-tags li:before {
-        background-image: url("/img/sprites@2x-sf1fbed750f-1f1f242f.png");
-        background-position: 0 -828px;
-        -webkit-background-size: 246px auto;
-        -moz-background-size: 246px auto;
-        -o-background-size: 246px auto;
-        background-size: 246px auto
-    }
 }
 
 .employment-description {
@@ -1554,4 +1413,3 @@ body {
     float: left;
     background-color: #00a663;
 }
-
