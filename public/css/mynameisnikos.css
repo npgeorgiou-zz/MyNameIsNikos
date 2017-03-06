@@ -689,7 +689,7 @@ body {
     }
 }
 
-.lt-ie9 .main {
+.  .main {
     margin-left: 25.6%;
     padding-left: 0%;
     padding-right: 2.4%;
@@ -1116,39 +1116,6 @@ body {
     background-repeat: no-repeat;
     height: 220px;
 }
-
-/*.description p:before {*/
-/*content: "";*/
-/*display: inline-block;*/
-/*height: 30px;*/
-/*width: 30px;*/
-/*background-image: url("/img/paper.png");*/
-/*background-size: contain;*/
-/*background-position: 0 0px;*/
-/*background-repeat: no-repeat;*/
-/*}*/
-
-/*.nerdy-info p:before {*/
-/*content: "";*/
-/*display: inline-block;*/
-/*height: 30px;*/
-/*width: 30px;*/
-/*background-image: url("/img/nerd.png");*/
-/*background-size: contain;*/
-/*background-position: 0 0px;*/
-/*background-repeat: no-repeat;*/
-/*}*/
-
-/*.tecks p:before {*/
-/*content: "";*/
-/*display: inline-block;*/
-/*height: 30px;*/
-/*width: 30px;*/
-/*background-image: url("/img/gears.png");*/
-/*background-size: contain;*/
-/*background-position: 0 0px;*/
-/*background-repeat: no-repeat;*/
-/*}*/
 
 /*END projects list css*/
 
