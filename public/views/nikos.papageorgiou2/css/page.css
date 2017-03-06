@@ -120,7 +120,7 @@ body {
 
 .projectPresentation {
     background-color: lightgrey;
-    border: 1px solid darkgray;
+    border: 1px dotted #ff5d3d;
 }
 
 
