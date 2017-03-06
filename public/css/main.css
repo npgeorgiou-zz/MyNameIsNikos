@@ -137,11 +137,6 @@ hr {
     height: 0
 }
 
-mark {
-    background: #ff0;
-    color: #000
-}
-
 code, kbd, pre, samp {
     font-family: monospace, serif;
     font-size: 1em;
@@ -201,7 +196,6 @@ figure {
 }
 
 fieldset {
-    border-color: #c0c0c0;
     margin: 0 2px;
     border-top-style: solid;
     border-top-width: 0.0625em;
@@ -312,10 +306,6 @@ table {
     font-style: normal
 }
 
-html, button, input, select, textarea {
-    color: white
-}
-
 a {
     -webkit-transition: all 0.3s ease-out;
     -webkit-transition-delay: 0s;
@@ -327,29 +317,18 @@ a {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
 }
 
 h2, .h2 {
     text-align: right;
-    border-bottom: 1px solid white;
     font-style: italic
 }
 
-h3, .h3 {
-    color: #c0fd1a;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
-}
-
 ::-moz-selection {
-    color: white;
-    background: #c0fd1a;
     text-shadow: none
 }
 
 ::selection {
-    color: white;
-    background: #c0fd1a;
     text-shadow: none
 }
 
@@ -380,11 +359,6 @@ abbr[title] {
     cursor: help
 }
 
-body {
-    background: #055231;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1)
-}
-
 .wrap, .chromeframe {
     max-width: 488px;
     padding-left: 0;
@@ -408,13 +382,10 @@ body {
 .chromeframe {
     clear: both;
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
     padding: 0.2em
 }
 
 .chromeframe a {
-    color: #000000 !important;
     text-shadow: none !important
 }
 
@@ -428,10 +399,6 @@ body {
     padding-right: 0;
     margin-left: auto;
     margin-right: auto
-}
-
-.menu a {
-    color: white
 }
 
 .menu:after {
@@ -461,7 +428,6 @@ body {
     position: absolute;
     width: 100%;
     float: left;
-    background: #2c2c2c;
     z-index: 100;
 }
 
@@ -485,10 +451,6 @@ body {
     margin-left: 0
 }
 
-.navigation .current a {
-    background: #121212;
-    color: #c0fd1a
-}
 
 .navigation a {
     display: block;
@@ -496,14 +458,6 @@ body {
     margin: 0;
     font-weight: 700;
     text-decoration: none
-}
-
-.navigation a:hover {
-    background: #1f1f1f
-}
-
-.navigation a:active {
-    background: #c0fd1a
 }
 
 .navigation .pdf a:after {
@@ -529,12 +483,6 @@ body {
     margin-right: 1.5em;
     text-align: center;
     line-height: 2.5em
-}
-
-.social-links ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0
 }
 
 .social-links ul li {
@@ -592,21 +540,12 @@ body {
 
 @media (min-width: 40em) {
     .shownav {
-        background-color: #2c2c2c;
         display: block
     }
 }
 
 .shownav.show {
     display: block;
-    background: #2c2c2c;
-}
-
-@media (min-width: 40em) {
-    .shownav.show {
-        display: block;
-        background: #2c2c2c;
-    }
 }
 
 .fullHeight {
@@ -614,7 +553,6 @@ body {
 }
 
 .shownavbutton {
-    background: #2c2c2c;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     padding-left: 1.5em;
@@ -644,7 +582,6 @@ body {
 
 .main {
     padding: 0 1.5em;
-    background: #028B54
 }
 
 @media (min-width: 40em) {
@@ -666,15 +603,6 @@ body {
     margin-right: 0
 }
 
-.main a {
-    color: #c0fd1a;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
-}
-
-.main a:hover {
-    color: white
-}
-
 .header .header-title {
     margin-top: 1.5em
 }
@@ -688,7 +616,6 @@ body {
 .header .header-title, .header .header-copy {
     font-family: "Arial", "PT Sans", sans-serif;
     font-weight: 400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
 }
 
 @media (min-width: 40em) {
@@ -709,10 +636,6 @@ body {
         float: right;
         margin-right: 0
     }
-}
-
-.highlight {
-    color: #c0fd1a
 }
 
 @media (min-width: 40em) {
@@ -738,10 +661,7 @@ body {
 .skills-list li {
     list-style-image: none;
     list-style-type: none;
-    margin-left: 0
-}
-
-.skills-list li {
+    margin-left: 0;
     width: 100%;
     float: left;
     margin-right: 4.9180328%
@@ -826,9 +746,6 @@ body {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0;
-}
-
-.projects-list li {
     width: 100%;
     float: left;
     margin-right: 4.9180328%
@@ -884,14 +801,6 @@ body {
     margin-bottom: 1.5em
 }
 
-/*.education-modules li:last-child {*/
-/*margin-bottom: 5em*/
-/*}*/
-
-.education-modules strong {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
-}
-
 .education-win {
     height: 179px;
     width: 246px;
@@ -923,6 +832,7 @@ body {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0;
+    margin-right: 0.375em
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -930,10 +840,6 @@ body {
     zoom: 1;
     *display: inline;
     white-space: nowrap
-}
-
-.employment-details li {
-    margin-right: 0.375em
 }
 
 .employment-details li:before {
@@ -969,6 +875,7 @@ body {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0;
+    margin-right: 0.375em
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -976,10 +883,6 @@ body {
     zoom: 1;
     *display: inline;
     white-space: nowrap
-}
-
-.employment-tags li {
-    margin-right: 0.375em
 }
 
 .employment-tags li:before {
@@ -1077,7 +980,6 @@ body {
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important
     }
@@ -1099,7 +1001,6 @@ body {
     }
 
     pre, blockquote {
-        border: 1px solid #999;
         page-break-inside: avoid
     }
 
@@ -1133,5 +1034,4 @@ body {
     padding: 10px;
     margin: 5px;
     float: left;
-    background-color: #00a663;
 }

@@ -8,8 +8,8 @@ router.get('/nikos.papageorgiou', function (req, res) {
     res.sendFile(path.join(__baseDir + '/public/views/nikos.papageorgiou/page.html'))
 });
 
-router.get('/', function (req, res) {
-    res.redirect("app/views/main.html")
+router.get('/nikos.papageorgiou2', function (req, res) {
+    res.sendFile(path.join(__baseDir + '/public/views/nikos.papageorgiou2/page.html'))
 });
 
 module.exports = router;

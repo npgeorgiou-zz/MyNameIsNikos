@@ -180,7 +180,7 @@
 }), $(document).ready(function () {
     function t() {
         $("#shownav").toggleClass("show");
-        $("#sidebar").toggleClass("fullHeight");
+        //$("#sidebar").toggleClass("fullHeight");
     }
 
     $("#navigation").onePageNav({scrollOffset: 50, begin: function () {
