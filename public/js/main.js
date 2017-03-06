@@ -179,7 +179,8 @@
     jQuery(".header-title").slabText(), jQuery(".header-copy").slabText()
 }), $(document).ready(function () {
     function t() {
-        $("#shownav").toggleClass("show")
+        $("#shownav").toggleClass("show");
+        $("#sidebar").toggleClass("fullHeight");
     }
 
     $("#navigation").onePageNav({scrollOffset: 50, begin: function () {

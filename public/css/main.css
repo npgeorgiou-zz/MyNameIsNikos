@@ -1,4 +1,3 @@
-
 .slabtexted .slabtext {
     display: -moz-inline-box;
     display: inline-block;
@@ -20,7 +19,7 @@
     line-height: 0.9
 }
 
- aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
     margin-bottom: 5em
 }
@@ -479,7 +478,6 @@ body {
 .menu .fixed {
     position: absolute;
     width: 100%;
-    height: 100%;
     float: left;
     background: #2c2c2c;
     z-index: 100;
@@ -640,12 +638,17 @@ body {
     }
 }
 
+.fullHeight {
+    height: 100%;
+}
+
 .lt-ie9 .shownav.show {
     display: block;
     background: #2c2c2c;
 }
 
 .shownavbutton {
+    background: #2c2c2c;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     padding-left: 1.5em;
@@ -692,7 +695,7 @@ body {
     }
 }
 
-.  .main {
+. .main {
     margin-left: 25.6%;
     padding-left: 0%;
     padding-right: 2.4%;
@@ -725,7 +728,7 @@ body {
 }
 
 .header .header-title, .header .header-copy {
-    font-family: "Forque", "PT Sans", sans-serif;
+    font-family: "Arial", "PT Sans", sans-serif;
     font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
 }
