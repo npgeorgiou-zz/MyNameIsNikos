@@ -1,0 +1,104 @@
+.skills-list .image-before p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/coding.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .business p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/business.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .servers p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/server.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .web-design p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/web-design.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .databases p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/db.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .version-control p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/version-control.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.skills-list .cloud-distributed p:before {
+    height: 50px;
+    width: 50px;
+    background-image: url("/views/nikos.papageorgiou/img/cloud-distributed.png");
+    background-size: contain;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.chat-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/chat.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.pixelAcademy-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/pixelacademy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.seaCargo-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/seacargo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.globejob-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/globejob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.budget-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/budget.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.fastrent-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/fastrent.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
