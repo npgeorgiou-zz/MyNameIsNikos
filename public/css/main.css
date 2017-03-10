@@ -526,6 +526,14 @@ abbr[title] {
     background-repeat: no-repeat
 }
 
+.social-links .twitter {
+    height: 32px;
+    width: 32px;
+    background-image: url("/img/sprites-sfceea3f451-7f705467.png");
+    background-position: 0 -386px;
+    background-repeat: no-repeat
+}
+
 .social-links .github {
     height: 32px;
     width: 32px;

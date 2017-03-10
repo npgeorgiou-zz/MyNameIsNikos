@@ -12,4 +12,8 @@ router.get('/nikos.papageorgiou2', function (req, res) {
     res.sendFile(path.join(__baseDir + '/public/views/nikos.papageorgiou2/page.html'))
 });
 
+router.get('/alison.connelly', function (req, res) {
+    res.sendFile(path.join(__baseDir + '/public/views/alison.connelly/page.html'))
+});
+
 module.exports = router;
