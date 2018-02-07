@@ -129,7 +129,7 @@ body {
 .skills-list .coding p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/coding.png");
+    background-image: url("/views/nikos.papageorgiou/img/coding.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ body {
 .skills-list .business p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/business.png");
+    background-image: url("/views/nikos.papageorgiou/img/business.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body {
 .skills-list .servers p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/server.png");
+    background-image: url("/views/nikos.papageorgiou/img/server.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ body {
 .skills-list .web-design p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/web-design.png");
+    background-image: url("/views/nikos.papageorgiou/img/web-design.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ body {
 .skills-list .databases p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/db.png");
+    background-image: url("/views/nikos.papageorgiou/img/db.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ body {
 .skills-list .version-control p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/version-control.png");
+    background-image: url("/views/nikos.papageorgiou/img/version-control.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
@@ -183,49 +183,56 @@ body {
 .skills-list .cloud-distributed p:before {
     height: 50px;
     width: 50px;
-    background-image: url("/views/nikos.papageorgiou2/img/cloud-distributed.png");
+    background-image: url("/views/nikos.papageorgiou/img/cloud-distributed.png");
     background-size: contain;
     background-position: 0 0px;
     background-repeat: no-repeat;
 }
 
 .chat-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/chat.png");
+    background-image: url("/views/nikos.papageorgiou/img/chat.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
 }
 
 .pixelAcademy-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/pixelacademy.png");
+    background-image: url("/views/nikos.papageorgiou/img/pixelacademy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.chart-image-container {
+    background-image: url("/views/nikos.papageorgiou/img/chart.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
 }
 
 .seaCargo-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/seacargo.png");
+    background-image: url("/views/nikos.papageorgiou/img/seacargo.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
 }
 
 .globejob-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/globejob.png");
+    background-image: url("/views/nikos.papageorgiou/img/globejob.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
 }
 
 .budget-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/budget.png");
+    background-image: url("/views/nikos.papageorgiou/img/budget.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
 }
 
 .fastrent-image-container {
-    background-image: url("/views/nikos.papageorgiou2/img/fastrent.png");
+    background-image: url("/views/nikos.papageorgiou/img/fastrent.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;

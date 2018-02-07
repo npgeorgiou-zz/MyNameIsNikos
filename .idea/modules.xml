@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MyNameIsNikos.iml" filepath="$PROJECT_DIR$/.idea/MyNameIsNikos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Bittrex_bot/.idea/bittrex.iml" filepath="$PROJECT_DIR$/../Bittrex_bot/.idea/bittrex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bittrex/.idea/bittrex.iml" filepath="$PROJECT_DIR$/../bittrex/.idea/bittrex.iml" />
     </modules>
   </component>
 </project>
-
