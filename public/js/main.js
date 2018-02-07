@@ -125,9 +125,16 @@
         return e
     }, handleClick: function (n) {
         var i = this, o = t(n.currentTarget), a = o.parent(), s = "#" + i.getHash(o);
-        a.hasClass(i.config.currentClass) || (i.config.begin && i.config.begin(), i.adjustNav(i, a), i.unbindInterval(), t.scrollTo(s, i.config.scrollSpeed, {axis: "y", easing: i.config.easing, offset: {top: -i.config.scrollOffset}, onAfter: function () {
-            i.config.changeHash && (e.location.hash = s), i.bindInterval(), i.config.end && i.config.end()
-        }})), n.preventDefault()
+
+        // Disable smooth scrolling (Some chrome issue with scrollTo)
+        // a.hasClass(i.config.currentClass) || (i.config.begin && i.config.begin(), i.adjustNav(i, a), i.unbindInterval(), t.scrollTo(s, i.config.scrollSpeed, {axis: "y", easing: i.config.easing, offset: {top: -i.config.scrollOffset}, onAfter: function () {
+          // i.config.changeHash && (e.location.hash = s), i.bindInterval(), i.config.end && i.config.end()
+        // }}));
+
+        // Change navbar classes
+        i.adjustNav(i, a);
+
+        // n.preventDefault()
     }, scrollChange: function () {
         var t, e = this.$win.scrollTop(), n = this.getSection(e);
         null !== n && (t = this.$elem.find('a[href$="#' + n + '"]').parent(), t.hasClass(this.config.currentClass) || (this.adjustNav(this, t), this.config.scrollChange && this.config.scrollChange(t)))
@@ -187,5 +194,15 @@
         //$("#sidebar").toggleClass("fullHeight");
     }
 
+    $("#navigation").onePageNav({scrollOffset: 50, begin: function () {
+            $("body").append('<div id="device-dummy" style="height: 1px;"></div>')
+        }, end: function () {
+            $("#device-dummy").remove()
+        }, filter: ":not(.external)"}), $("#shownavbutton").on("click", function () {
+        t()
+    }),
+    $("#navigation a").on("click", function () {
+        t()
+    })
 
 });
