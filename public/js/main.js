@@ -46,16 +46,19 @@
     var n = t.scrollTo = function (e, n, i) {
         t(window).scrollTo(e, n, i)
     };
-    n.defaults = {axis: "xy", duration: parseFloat(t.fn.jquery) >= 1.3 ? 0 : 1, limit: !0}, n.window = function () {
+    n.defaults = {axis: "xy", duration: 1, limit: !0};
+    n.window = function () {
         return t(window)._scrollable()
-    }, t.fn._scrollable = function () {
+    };
+    t.fn._scrollable = function () {
         return this.map(function () {
             var e = this, n = !e.nodeName || -1 != t.inArray(e.nodeName.toLowerCase(), ["iframe", "#document", "html", "body"]);
             if (!n)return e;
             var i = (e.contentWindow || e).document || e.ownerDocument || e;
             return/webkit/i.test(navigator.userAgent) || "BackCompat" == i.compatMode ? i.body : i.documentElement
         })
-    }, t.fn.scrollTo = function (i, o, a) {
+    };
+    t.fn.scrollTo = function (i, o, a) {
         return"object" == typeof o && (a = o, o = 0), "function" == typeof a && (a = {onAfter: a}), "max" == i && (i = 9e9), a = t.extend({}, n.defaults, a), o = o || a.duration, a.queue = a.queue && a.axis.length > 1, a.queue && (o /= 2), a.offset = e(a.offset), a.over = e(a.over), this._scrollable().each(function () {
             function s(t) {
                 c.animate(f, o, a.easing, t && function () {
@@ -86,12 +89,13 @@
                 }), s(a.onAfter)
             }
         }).end()
-    }, n.max = function (e, n) {
+    };
+    n.max = function (e, n) {
         var i = "x" == n ? "Width" : "Height", o = "scroll" + i;
         if (!t(e).is("html,body"))return e[o] - t(e)[i.toLowerCase()]();
         var a = "client" + i, s = e.ownerDocument.documentElement, r = e.ownerDocument.body;
         return Math.max(s[o], r[o]) - Math.min(s[a], r[a])
-    }
+    };
 }(jQuery), function (t, e, n) {
     var i = function (i, o) {
         this.elem = i, this.$elem = t(i), this.options = o, this.metadata = this.$elem.data("plugin-options"), this.$nav = this.$elem.find("a"), this.$win = t(e), this.sections = {}, this.didScroll = !1, this.$doc = t(n), this.docHeight = this.$doc.height()
@@ -183,13 +187,5 @@
         //$("#sidebar").toggleClass("fullHeight");
     }
 
-    $("#navigation").onePageNav({scrollOffset: 50, begin: function () {
-        $("body").append('<div id="device-dummy" style="height: 1px;"></div>')
-    }, end: function () {
-        $("#device-dummy").remove()
-    }, filter: ":not(.external)"}), $("#shownavbutton").on("click", function () {
-        t()
-    }), $("#navigation a").on("click", function () {
-        t()
-    })
+
 });
